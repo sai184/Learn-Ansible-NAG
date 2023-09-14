@@ -1,20 +1,12 @@
-- name: Demo on condtions
+- name: Demo on conditions
   hosts: localhost
-  #vars:
-    #fruit : Apple , orange
-
   tasks:
     - name: Print Apple Price
       ansible.builtin.debug:
-        msg: Apple price is 50
-      #vars:
-       #fruit: Apple
-      when: fruit == "Apple"
-
+        msg: Apple Price is - 1$
+      when: fruit == "apple"
 
     - name: Print Orange Price
       ansible.builtin.debug:
-        msg: Orange price is 60
-      #vars:
-       #fruit: Apple
-      when: fruit == "Apple"
+        msg: Orange Price is - 2$
+      when: fruit == "orange"
