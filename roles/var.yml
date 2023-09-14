@@ -1,5 +1,5 @@
 - name: wedding
-  hosts: all
+  hosts: localhost
   vars:
     marr:Arjuns wedding
   tasks:
@@ -12,3 +12,4 @@
     - name: wedding
       ansible.builtin.debug:
         msg:"{{marr}}"
+
