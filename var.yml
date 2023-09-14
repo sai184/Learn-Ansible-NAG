@@ -13,7 +13,3 @@
       ansible.builtin.debug:
         msg:"{{marr}}"
 
-    - name: Demo on roles variables
-      hosts: localhost
-      roles:
-        - demo
