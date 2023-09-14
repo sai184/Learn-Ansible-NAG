@@ -1,0 +1,14 @@
+- name: wedding
+  hosts: all
+  vars:
+    marr:Arjuns wedding
+  tasks:
+    - name: weedings
+      ansible.builtin.debug:
+        msg:"{{marr}}"
+      vars:
+        marr:Borras wedding
+
+    - name: wedding
+      ansible.builtin.debug:
+        msg:"{{marr}}"
