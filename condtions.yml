@@ -1,5 +1,7 @@
 - name: Demo on condtions
   hosts: localhost
+  vars:
+    fruit : Apple , orange
 
   tasks:
     - name: Print Apple Price
