@@ -5,11 +5,11 @@
   tasks:
     - name: weedings
       ansible.builtin.debug:
-        msg:"{{marr}}"
+        msg:"{{ marr }}"
       vars:
         marr:Borras wedding
 
     - name: wedding
       ansible.builtin.debug:
-        msg:"{{marr}}"
+        msg:"{{ marr }}"
 
