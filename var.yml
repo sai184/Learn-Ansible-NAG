@@ -7,7 +7,7 @@
       ansible.builtin.debug:
         msg:"{{ marr }}"
       vars:
-        marr:Borras wedding
+        marr: Borras wedding
 
     - name: wedding
       ansible.builtin.debug:
