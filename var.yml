@@ -12,5 +12,3 @@
     - name: wedding
       ansible.builtin.debug:
         msg: "{{ marr }}"
-
-jjkjk
